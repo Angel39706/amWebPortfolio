@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Angel Martinez</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Header Section with Self Portrait -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>Angel Martinez</h1>
+                    <p>Backend and Mobile Developer</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="/Assets/MyImage.jpg" alt="Self Portrait" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me 👨🏻‍💻</h2>
+            <p>Hello, I recently graduated at California State University, San Bernardino with a B.S in Computer Engineering. On my freetime, I enjoy playing video games such as rainbow six seige along with brawlhalla. Besides video games, I am dedicated to my fitness goals being in the gym consistently for 2 years now. A recent hobby that was discovered is rock climbing with some of my friends. I am eager to travel the world!</p>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section text-center">
+<div class="container">
+<div class="card project">
+    <div class="card-body d-flex align-items-center">
+        <img src="Assets/appstore1024.png" class="card-img" alt="Project 1" style="max-height: 150px;"> <!-- Adjust max-height as needed -->
+        <div class="ml-3 d-flex flex-column"> <!-- Use d-flex and flex-column for vertical alignment -->
+            <h3 class="card-title mb-0">Limit- Time Management App <!-- Use mb-0 to remove margin-bottom for h3 -->
+                <a href="https://github.com/lxAnxietyxl/limit" target="_blank" rel="noopener noreferrer">
+                    <img src="Assets/github-mark.png" alt="GitHub Repository" class="github-logo" style="width: 22px; height: 20px;"> <!-- Adjust width and height as needed -->
+                </a>
+                <a href="https://github.com/lxAnxietyxl/limit" target="_blank" rel="noopener noreferrer">
+                    <img src="Assets/y2.png" alt="youtube" class="youtube-logo"> <!-- Adjust width and height as needed -->
+                </a>
+            </h3>
+            <p class="card-text">Implemented the timer and to-do list functionality using SwiftUI, UIKit, and UserNotifications frameworks. Collaborated with a backend engineer to connect Firebase with the to-do list in order to update tasks. Refactored existing code using MVVM architecture to ensure code readability for approval by project managers.</p>
+            <div class="tech-stack">
+                <h4 class="card-subtitle">IDE & Frameworks </h4>
+                <ul class="tech-stack-list">
+                    <li><img src="Assets/XcodeIcon.png" alt="XcodeLogo" style="max-width: 15px; max-height: 15px;"> Xcode</li> <!-- Adjust max-width and max-height as needed -->
+                    <li><img src="Assets/SwiftLogo.png" alt="SwiftUI" style="max-width: 15px; max-height: 15px;"> SwiftUI</li> <!-- Adjust max-width and max-height as needed -->
+                    <li><img src="Assets/FireBaseLogo.png" alt="FireBase Logo" style="max-width: 15px; max-height: 15px;">Firebase</li> <!-- Adjust max-width and max-height as needed -->
+                    <li><img src="Assets/notifs.png" alt="UserNotifications Logo" style="max-width: 15px; max-height: 15px;">UserNotifications </li> <!-- Adjust max-width and max-height as needed -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bootstrap Card for Project 1 -->
+
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        Email: angelmartinezdev165@gmail.com
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer class="footer text-center">
+    <p>&copy; 2024 Your Portfolio</p>
+</footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

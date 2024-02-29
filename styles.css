@@ -1,0 +1,101 @@
+
+.hero-section {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.about-section {
+    padding: 80px 0;
+}
+
+.contact-section {
+    padding: 80px 0;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #E4E2DD;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.card.project img {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+}
+
+.card-title {
+    font-size: 25px;
+    margin: 0;
+}
+
+.card-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.tech-stack {
+    margin-top: 20px;
+}
+
+.tech-stack h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Horizontal list for tech stack items */
+.tech-stack-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Display items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if necessary */
+}
+
+.tech-stack-list li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between items */
+    margin-bottom: 10px; /* Add spacing between rows */
+    font-size: 16px;
+    color: #555;
+}
+
+.tech-stack img {
+    max-width: 30px; /* Adjust the size as needed */
+    margin-right: 5px; /* Add spacing between image and text */
+}
+
+.github-logo,
+.youtube-logo {
+    width: 45px; /* Adjust the size as needed */
+    height: 40px;
+    filter: grayscale(20%); /* Optionally make the logo grayscale */
+}
+
+.github-logo:hover,
+.youtube-logo:hover {
+    filter: grayscale(0%); /* Remove grayscale on hover for color effect */
+}
